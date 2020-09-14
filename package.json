@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app-project",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "@nuxt/typescript-runtime": "^1.0.0",
+    "@nuxtjs/apollo": "^4.0.1-rc.3",
+    "graphql-tag": "^2.11.0",
+    "nuxt": "^2.14.0",
+    "vue-class-component": "^7.2.5",
+    "vue-property-decorator": "^9.0.0"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.0",
+    "@nuxt/typescript-build": "^2.0.2"
+  }
+}
